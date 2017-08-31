@@ -3,10 +3,13 @@
 python相关关键词查询接口
 需要安装web.py和Levenshtein
 安装方法:
-sudo pip install -i https://pypi.douban.com/simple web.py python-Levenshtein
-运行脚本: python rskey.py [自定义端口, 默认8080]
+sudo pip install -i https://pypi.douban.com/simple web.py python-levenshtein
+运行脚本: python index.py [自定义端口, 默认8080]
 使用方法: http://127.0.0.1:8080/?s=关键词&n=3
 参数说明: s是要查询的关键词(必填); n是返回相关关键词数量(可选, 默认3)
+web.py 学习地址：http://webpy.org/docs/0.3/tutorial.zh-cn
+作者: brooks
+公众号: 布鲁的python
 """
 import web
 import Levenshtein
